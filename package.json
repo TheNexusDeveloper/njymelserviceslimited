@@ -1,5 +1,6 @@
 {
   "name": "njymelserviceslimited",
+  "homepage": "https://thenexusdeveloper.github.io/njymelserviceslimited/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages  -b main -d build",
+    "deploy": "gh-pages -b main -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
